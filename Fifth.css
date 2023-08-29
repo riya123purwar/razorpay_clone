@@ -1,0 +1,528 @@
+body{
+    margin: 0;
+}
+.navbar{
+    /* margin-top: 0px; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#nav-text{
+    font-size: 20px;
+}
+
+#nav-but{
+    border-radius: 2px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+button{
+    background-color: cornflowerblue;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* headerrrr */
+.header{
+    background-color: #02042A;
+    padding: 0px 32px;
+    height: 90.96px;
+    /* width: 100%; */
+    display: flex;
+}
+
+#razor-wrapper{
+    margin-left: 100px;
+    background-color: #02042A;
+    padding: 28px 22px 28px 0px;
+} 
+
+.razor-img{
+    width: 125px;
+    height: 30px;
+    line-height: 1rem;
+    fill: #fff;
+}
+
+ul{
+    
+    display: flex;
+    color: white;
+    list-style: none;
+}
+
+li{
+    padding: 20px;
+}
+
+.razor-wrapper-optns{
+    cursor: pointer;
+    
+}
+
+#pay{
+    color: #fff;
+}
+
+#pay:hover{
+    border-bottom: 2px solid cornflowerblue;
+    color: cornflowerblue;
+    padding-bottom: 15px;
+    border-block-width: 4px;
+}
+
+.bank{
+    background-color: #02042A;
+    color: #fff;
+    border: none;
+}
+
+.bank:hover{
+    border-bottom: 2px solid cornflowerblue;
+    color: cornflowerblue;
+    padding-bottom: 15px;
+    border-block-width: 4px;
+}
+
+.line{
+    color: #fff;
+}
+
+.line:hover{
+    color: cornflowerblue;
+}
+
+#end-wrap{
+    margin-left: 20px;
+    padding: 15px 0px;
+    display: flex;
+}
+
+#flag{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#login-wrapper{
+    /* justify-content: center; */
+    border: 1px solid cornflowerblue;
+    background-color: #02042A;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+}
+.sign-wrapper{
+    background-color: #fff;
+    color: cornflowerblue;
+    margin-left: 15px;
+    width: 110px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* heroooo */
+
+#hero{
+    background-color: #02042A;
+    width: 100%;
+    height: 600px;
+   
+}
+
+#first-head{
+    margin-left:130px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.slash-wrapper{
+    margin-left: 130px;
+    width: 24px;
+    height: 4px;
+    background-color: aqua;
+
+}
+
+#sec-head{
+    padding-top: 20px;
+    margin-left: 130px;
+    color: #b7aeaec6;
+    padding-bottom: 20px;
+}
+.button-wrapper{
+    height: 49px;
+    cursor: pointer; 
+    background-color: #2B84EA;
+    width: 150px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-wrapper:hover{
+    background-color:rgb(13, 69, 173);
+}
+
+#img-wrapper{
+    object-fit:contain;
+    height: 560px;
+    width: 800px;
+}
+
+
+
+.col {
+    float: left;
+    width: 40%;
+    background-color: #02042A;
+  }
+
+
+/* slider */
+
+#slider{
+    width: 100%;
+    height: 181.4px; /* Adjust the height according to your needs */
+    position: relative;
+    right: 0%;
+    overflow: hidden;
+    background-color: #fff;
+  } 
+  
+#slider svg{
+      width: 100%;
+    height: 181.4px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0%;
+    transform: skewY(1deg); /* Adjust the skew angle as desired  */
+    transform-origin: right;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.b-low-shape-wrapper{
+    display: flex;
+  }
+
+#dot-left-wrapper{
+    margin-left: 200px;
+    background-image: url(dotsleft.png);
+    width: 180px;
+    height: 40px;
+  
+}
+
+.slash-wrapper-b-low{
+    margin-left: 710px;
+    width: 24px;
+    height: 4px;
+    background-color: #61cea6;
+}
+
+#lower{
+    display: flex;
+    /* position: absolute; */
+    top: 1000px;
+}
+
+#dot-right-wrapper{
+    margin-left:490px;
+    background-image: url(dotsright.png);
+    margin-right: 0%;
+    width: 240px;
+    height:167px;
+    transform: rotate(180deg);
+   
+}  
+
+/* lower box */
+
+#border-box{
+    border: 1.5px solid rgb(235, 229, 229);
+    border-radius: 5px;
+    height: 65vh;
+    width: 70vw;
+    left: 200px;
+    position: relative;
+    right: 160px;
+    bottom: 100px;
+    background-color: #fff;
+    padding: 2px 48px;
+   
+} 
+
+#headone{
+    padding-top: 20px;
+    width: 510px;
+    height: 91px;
+    color: #02042A;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+li{
+    color: #02042A;
+}
+
+.list{
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+.list i {
+    vertical-align: middle;
+    margin-right: 20px; /* Adjust the value as per your preference */
+  }
+
+.fa-check{
+    color: rgb(33, 188, 137);
+}
+
+#lower-button{
+    display: flex;
+}
+
+.know-wrapper{
+    display: flex;
+    padding-top: 12px;
+    cursor: pointer;
+    color: #0B72E7;
+}
+
+#side-img{
+    margin-top: 3px; 
+    background-image: url(lower-img.png);
+    background-size: cover;
+    width: 600px;
+}
+
+.col2{
+    float: left;
+    width: 45%;
+}
+
+h3{
+    color: #02042A;
+    
+}
+
+.down{
+   margin-right: 100px;
+    margin-left: -90px;
+    /* display: flex; */
+    justify-content: space-evenly;
+    width: 100%;
+    height: 482px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    
+
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.css-lqelpq{
+    height: 200px;
+    width: 338.6px;
+    /* margin-right: 100px; */
+    fill: white ;
+    cursor: pointer;
+}
+
+/* .img:hover{
+background-color: #f0f0f0;
+  border: 0px solid #ccc;
+  box-shadow: 0 0 10px 4px rgba(185, 185, 185, 0.2);
+} */
+
+.css-lqelpq:hover{
+    /* border: none; */
+  background-color: #f0f0f0;
+  border: 0px solid #ccc;
+  box-shadow: 0 0 10px 4px rgba(185, 185, 185, 0.2);
+
+}
+
+.hove-img{
+    margin-left: 246px;
+    margin-top: -33px;
+}
+
+/* img-cont{
+    position: relative;
+    width: 300px;
+    height: 200px;
+} */
+
+hove-img{
+     position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Set the initial opacity to 0 to hide the image */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+css-lqelpq:hover .hove-img{
+    opacity: 1;
+}
+
+.head{
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+    margin-left: 20px;
+    /* border: 2px solid green; */
+    
+}
+
+h3{
+    text-align: left;
+}
+
+.descriptn{
+    cursor: pointer;
+    text-decoration: none;
+    color: #818597;
+    font-size: 15px;
+}
+
+.know{
+    margin-top: 20px;
+ margin-left: 0px;
+}
+
+.img{
+    position: absolute;
+
+}
+
+#b_low-box{
+    display: flex;
+    font-size: 14px;
+    margin-left: 200px;
+    width: 1100px;
+    height: 55px;
+    border: 1px solid rgba(42, 134, 243, 0.32);
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
+    align-items: center;
+    /* letter-spacing: 3px; */
+}
+
+h5{
+    font-size: 14px;
+    margin-left: 250px;
+    margin-right: 10px;
+}
+
+p{
+    color: #5A6682;
+   margin-right: 10px;
+}
+
+
+
+#find_pro{
+    display: flex;
+}
+
+#find_pro:hover{
+    cursor: pointer;
+}
+
+#middle_box{
+    margin-top: 50px;
+    width: 100%;
+    height: 1597px;
+    padding-bottom: 500px;
+    background-image: url(https://razorpay.com/build/browser/static/x-dark-bg.0bc3bc00.svg);
+    background-repeat: no-repeat;
+    background-position: -400px 0px
+}
+
+h6{
+    margin-left: 35%;
+    font-size: 25px;
+    color: white;
+    padding-top: 200px;
+    margin-bottom: 0%;
+   /* padding-bottom: 0%; */
+    align-content: center;
+}
+
+#bottom_side_img{
+    color: white;
+background-image: url(https://razorpay.com/build/browser/static/x-flame-1.56d9277e.png);
+}
+
+#down-box{
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 1100px;
+    height: 481.7px;
+    border: 0.5px solid grey;
+    border-radius: 6px;
+}
+
+.raz_img{
+    height: 50px;
+    width: 50px;
+    fill: #fff;
+}
+
+span_u{
+    color: white;
+}
+
+
+
+#bottom_rytside_img{
+    padding-left: 530px;
+    position: relative;
+}
+
+.bottomdown{
+    padding-top: 10px;
+    margin-top: -120px;
+    margin-right: 100px;
+     margin-left: -90px;
+     /* display: flex; */
+     justify-content: space-evenly;
+     width: 100%;
+     height: 225px;
+     /* border: 2px solid red; */
+     display: grid;
+     grid-template-columns: repeat(3,100px);
+}
+
+#b_low_boxes{
+    width: 1100px;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin-top: 250px;
+    display: flex;
+    color: #e2e2e2;
+    font-size: 1.4rem;
+    padding-left: 50px;
+    /* margin-left: 20px;
+     */
+    /* margin-top: 30px; */
+     /* text-align: center; */
+}
+
+.sec_grid{
+    color: #2a0216;
+    /* background-image: url(	https://razorpay.com/build/browser/static/instant-settlements-bg.b4569475.svg); */
+}
